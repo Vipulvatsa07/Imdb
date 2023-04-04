@@ -1,0 +1,49 @@
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2.5rem;
+    padding: 1rem;
+  
+}
+.navbarLeft
+{
+    display: flex;
+    align-items: center;  
+    /* justify-content: space-between; */
+}
+.navbarRight
+{
+    display: flex;
+    align-items: center;  
+    margin: 0px 10px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.imdb
+{
+  width: 80px;
+  cursor: pointer;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a>span{
+    margin: 0px 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+.watchListIcon
+{
+    cursor: pointer;
+    /* width: 20px; */
+    font-size: '7rem'
+}
+.btn
+{
+    color: white;
+    background-color: black;
+}
